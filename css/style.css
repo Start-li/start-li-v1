@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style
+* 	Template Style 
 *
 * ======================================================= */
 body {
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: red;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -130,16 +130,12 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: #39a9a4;
+  color: rgba(255, 255, 255, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-
-.fh5co-nav ul li a:hover {
-  color: #39a9a4;
-}
-.fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
+.fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: white;
 }
 .fh5co-nav ul li.has-dropdown {
@@ -317,7 +313,8 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(0, 0, 0, 0.38);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -1897,7 +1894,7 @@ form label {
 }
 
 
-/*
+/* 
 a {
   color: #2A817C;
 }
@@ -2038,7 +2035,12 @@ select::-ms-expand {
   -o-transition: .25s all ease;
   transition: .25s all ease;
 }
-
-.items {
-  color: red;
+.badgeNotif {
+  position: absolute;
+  top: -18px;
+  right: -10px;
+  padding: 0px 9px;
+  border-radius: 79%;
+  background-color: #dc143c;
+  color: white;
 }

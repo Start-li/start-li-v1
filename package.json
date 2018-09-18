@@ -1,0 +1,25 @@
+{
+  "name": "start-li-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "now --public",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "now-start": "serve -s ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Start-li/start-li-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Start-li/start-li-v1/issues"
+  },
+  "homepage": "https://github.com/Start-li/start-li-v1#readme",
+  "dependencies": {
+    "now": "^11.4.4",
+    "serve": "^10.0.1"
+  }
+}
